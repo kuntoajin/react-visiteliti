@@ -1,0 +1,64 @@
+// -----------------------------------------------------------------------------
+// Mixins
+// -----------------------------------------------------------------------------
+
+// example:
+// https://github.com/HugoGiraudel/sass-boilerplate/blob/master/stylesheets/abstracts/_mixins.scss
+
+@import "bootstrap";
+
+/* ------- customize primary button color -------- */   
+$primary-color:#F36E2B;
+
+.btn-primary {
+    @include button-variant($primary-color, darken($primary-color, 7.5%), darken($primary-color, 10%), lighten(white,5%), lighten($primary-color, 10%), darken($primary-color,30%));
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    &:hover {
+        color: $primary-color !important;
+    }
+}
+
+.btn-outline-primary {
+    @include button-variant(white, darken($primary-color, 7.5%), darken($primary-color, 10%), lighten($primary-color,5%), lighten($primary-color, 10%), darken($primary-color,30%));
+    font-weight: 600;
+    font-size: 13px;
+    &:hover {
+        color: white;
+    }
+}
+
+.sosmed-icons {
+    color: #CC8533;
+}
+
+.form-check-input:checked {
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+
+.mt-n1 {
+    margin-top: -4.25rem !important;
+}
+
+.avatar-profile {
+    z-index: 1000 !important;
+}
+
+.nav-link {
+    border-bottom: unset !important;
+}
+
+.tab-profile {
+    border-bottom: 1px solid $primary-color !important;
+}
+
+.riset-produk-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: unset;
+}
