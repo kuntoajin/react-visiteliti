@@ -1148,8 +1148,7 @@ body {
   .mega-menus .dropdown-menu > li.dropdown-wide > a.car-3:before,
   .mega-menus .dropdown-menu > li.dropdown-wide > a.car-4:before,
   .mega-menus .dropdown-menu > li.dropdown-wide > a.car-5:before,
-  .mega-menus .dropdown-menu > li.dropdown-wide > a.car-6:before {
-    background-image: url("../../img/car.png"); }
+
   .mega-menus .dropdown-menu > li.dropdown-wide > a.car-1:before {
     background-position: 80px -3px; }
   .mega-menus .dropdown-menu > li.dropdown-wide > a.car-2:before {
@@ -1382,14 +1381,6 @@ body {
     .mega-menus .s-list.s-list-sprite > li > a:hover {
       background-color: transparent;
       color: #337ab7; }
-  .mega-menus .s-list.s-list-sprite.s-list-sprite-nfl > li > a {
-    background-image: url(../../img/nfl.png); }
-  .mega-menus .s-list.s-list-sprite.s-list-sprite-nba > li > a {
-    background-image: url(../../img/nba.png); }
-  .mega-menus .s-list.s-list-sprite.s-list-sprite-mlb > li > a {
-    background-image: url(../../img/mlb.png); }
-  .mega-menus .s-list.s-list-sprite.s-list-sprite-flags > li > a {
-    background-image: url(../../img/flags.png); }
   .mega-menus .s-list.s-list-no-hover > li > a:hover {
     background: none;
     color: #337ab7; }
@@ -7186,119 +7177,7 @@ a.full-width-icon {
       margin-top: 5rem; } }
 
 /******* parallax images styles *******/
-.visual-banner {
-  background-image: url("../img/visual-14.jpg"); }
 
-.visual-banner-v2 {
-  background-image: url("../img/visual-02.jpg"); }
-
-.visual-banner-v3 {
-  background-image: url("../img/visual-small-06.jpg"); }
-
-.visual-banner-v4 {
-  background-image: url("../img/visual-03.jpg"); }
-
-.visual-banner-v5 {
-  background-image: url("../img/visual-04.jpg"); }
-
-.visual-banner-v6 {
-  background-image: url("../img/visual-small-07.jpg"); }
-
-.visual-banner-v7 {
-  background-image: url("../img/visual-small-08.jpg"); }
-
-.visual-banner-v8 {
-  background-image: url("../img/visual-small-09.jpg"); }
-
-.visual-banner-v9 {
-  background-image: url("../img/visual-small-10.jpg"); }
-
-.visual-banner-v10 {
-  background-image: url("../img/visual-small-11.jpg"); }
-
-.visual-banner-v11 {
-  background-image: url("../img/visual-small-12.jpg"); }
-
-.visual-banner-v12 {
-  background-image: url("../img/visual-small-13.jpg"); }
-
-.visual-banner-v13 {
-  background-image: url("../img/visual-small-14.jpg"); }
-
-.visual-banner-v14 {
-  background-image: url("../img/visual-small-15.jpg"); }
-
-.visual-banner-v15 {
-  background-image: url("../img/visual-small-16.jpg"); }
-
-.visual-banner-v16 {
-  background-image: url("../img/visual-small-17.jpg"); }
-
-.visual-banner-v17 {
-  background-image: url("../img/visual-small-18.jpg"); }
-
-.visual-banner-v18 {
-  background-image: url("../img/visual-small-19.jpg"); }
-
-.visual-banner-v19 {
-  background-image: url("../img/visual-small-20.jpg"); }
-
-.visual-banner-v20 {
-  background-image: url("../img/visual-small-21.jpg"); }
-
-.visual-banner-v21 {
-  background-image: url("../img/visual-small-22.jpg"); }
-
-.visual-banner-v22 {
-  background-image: url("../img/visual-15.jpg"); }
-
-.visual-banner-v23 {
-  background-image: url("../img/big-19.jpg"); }
-
-.about-banner {
-  background-image: url("../img/visual-small-01.jpg"); }
-
-.portfolio-banner {
-  background-image: url("../img/visual-small-02.jpg"); }
-
-.portfolio-banner-v1 {
-  background-image: url("../img/visual-small-04.jpg"); }
-
-.portfolio-banner-v2 {
-  background-image: url("../img/visual-small-05.jpg"); }
-
-.quotation-block {
-  background-image: url("../img/big-15.jpg"); }
-
-.count-block {
-  background-image: url("../img/visual-small-11.jpg"); }
-
-.quotation-block-v3 {
-  background-image: url("../img/big-06.jpg"); }
-
-.quotation-block-v5 {
-  background-image: url("../img/big-04.jpg"); }
-
-.quotation-block-v6 {
-  background-image: url("../img/big-09.jpg"); }
-
-.quotation-block-v7 {
-  background-image: url("../img/big-12.jpg"); }
-
-.information-block {
-  background-image: url("../img/visual-03.jpg"); }
-
-.btn-wrapper-demo {
-  background-image: url("../img/big-03.jpg"); }
-
-.blog-default-banner {
-  background-image: url("../img/blog-01.jpg"); }
-
-.intro-banner {
-  background-image: url("../img/intro-img/intro-banner-01.jpg"); }
-
-.intro-footer-block {
-  background-image: url("../img/Dest_B23516_39.jpg"); }
 
 /******* grid box styles *******/
 .grid-box .grid-box-demo {
@@ -9375,7 +9254,6 @@ a.full-width-icon {
   color: #7d7d7d; }
 
 .footer-v3 .footer-map {
-  background-image: url(../img/map-05.png);
   background-repeat: no-repeat;
   background-position: center center; }
 

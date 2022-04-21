@@ -4,14 +4,15 @@ import React from "react";
 import "./styles/main.css";
 import "./styles/main.scss";
 import "./styles/bootstrap.css";
-// import "./styles/vendor/layers.css";
-// import "./styles/vendor/navigations.css";
-// import "./styles/vendor/settings.css";
-// import "./styles/construction.css";
+import "./styles/vendor/layers.css";
+import "./styles/vendor/navigations.css";
+import "./styles/vendor/settings.css";
+import "./styles/construction.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import About from "./pages/about";
 import Home from "./pages/home";
+import Footer from "./components/atoms/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +26,7 @@ root.render(
         <Route path="/" element={<Home />} />
       </Routes>
     </Router>
+    <Footer />
   </React.StrictMode>
 );
 
