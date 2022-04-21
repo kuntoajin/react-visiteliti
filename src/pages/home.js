@@ -318,21 +318,21 @@ const Home = () => {
           <div className="content-wrapper">
             <section className="content-block">
               <div className="container">
-                <div className="block-heading bottom-space text-center">
+                <div className="block-heading bottom-space">
                   <h2 className="block-main-heading">Produk Riset</h2>
+                  <span className="block-sub-heading">
+                    Produk riset dapat membantu bisnis memperkuat posisi mereka.
+                    Riset pasar berguna untuk mendapatkan perspektif dan
+                    pemahaman yang lebih baik tentang pasar atau target audiens,
+                    serta memastikan bahwa perusahaan kamu tetap terdepan dalam
+                    persaingan.
+                  </span>
                   <div className="divider">
                     <img
                       src="/assets/static/images/Divider.png"
                       alt="images description"
                     />
                   </div>
-                  <span className="block-sub-heading">
-                    Produk riset dapat membantu bisnis memperkuat posisi mereka.
-                    Riset pasar berguna untuk mendapatkan perspektif dan
-                    pemahaman yang lebih baik tentang pasar atau target audiens,
-                    serta memastikan bahwa perusahaan kamu tetap terdepan dalam
-                    persaingan
-                  </span>
                 </div>
                 <div className="row multiple-row v-align-row justify-content-between">
                   <div className="info-block info-block-v2 block-1 col-sm-6 col-lg-3 text-center p-5 ico-box bg-gray-light has-radius-medium">
@@ -381,21 +381,21 @@ const Home = () => {
               </div>
             </section>
             <div className="container">
-              <div className="block-heading bottom-space text-center">
+              <div className="block-heading bottom-space">
                 <h2 className="block-main-heading">Layanan</h2>
+                <span className="block-sub-heading">
+                  Produk riset dapat membantu bisnis memperkuat posisi mereka.
+                  Riset pasar berguna untuk mendapatkan perspektif dan pemahaman
+                  yang lebih baik tentang pasar atau target audiens, serta
+                  memastikan bahwa perusahaan kamu tetap terdepan dalam
+                  persaingan.
+                </span>
                 <div className="divider">
                   <img
                     src="/assets/static/images/Divider.png"
                     alt="images description"
                   />
                 </div>
-                <span className="block-sub-heading">
-                  Produk riset dapat membantu bisnis memperkuat posisi mereka.
-                  Riset pasar berguna untuk mendapatkan perspektif dan pemahaman
-                  yang lebih baik tentang pasar atau target audiens, serta
-                  memastikan bahwa perusahaan kamu tetap terdepan dalam
-                  persaingan
-                </span>
               </div>
             </div>
             <section
