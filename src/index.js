@@ -13,17 +13,21 @@ import reportWebVitals from "./reportWebVitals";
 import About from "./pages/about";
 import Home from "./pages/home";
 import Footer from "./components/atoms/Footer";
+import Visinsight from "./pages/visinsight";
+import Header from "./components/atoms/Header";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Header />
     <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         {/* <Route path="/users">
           <Users />
         </Route> */}
-        <Route path="/" element={<Home />} />
+        <Route path="/visinsight" element={<Visinsight />} />
       </Routes>
     </Router>
     <Footer />
